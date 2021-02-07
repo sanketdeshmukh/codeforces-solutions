@@ -65,52 +65,6 @@ public class A {
 
 
 
-
-
-
-
-
-
-// public static euclidTriplet euclidExtended(int a, int b) {
-// 	if (b == 0)
-// 		return new euclidTriplet(1, 0, a);
-
-// 	euclidTriplet ans = euclidExtended(b, a % b);
-
-// 	return new euclidTriplet(ans.y, ans.x - (a / b) * ans.y, ans.gcd);
-// }
-
-
-// public static int gcd(int a, int b) {
-// 	if (a == 0)
-// 		return b;
-
-// 	return gcd(b % a, a);
-// }
-
-}
-
-// class euclidTriplet {
-// 	int x, y, gcd;
-// 	euclidTriplet(int x, int y, int gcd) {
-// 		this.x = x;
-// 		this.y = y;
-// 		this.gcd = gcd;
-// 	}
-// }
-
-
-// class comp implements Comparator<long []> {
-// 	public int compare(long [] arr1, long[] arr2) {
-// 		if ((2 * arr2[0] + arr2[1]) > (2 * arr1[0] + arr1[1]))
-// 			return 1;
-
-// 		else
-// 			return -1;
-// 	}
-// }
-
-
 class FastReader {
 
 	BufferedReader br;
